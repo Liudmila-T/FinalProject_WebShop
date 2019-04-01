@@ -1,0 +1,31 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>
+
+<head>
+
+    <title>
+        ${title}
+    </title>
+
+    <%--===========================================================================
+    Bind CSS document.
+    ===========================================================================--%>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/st4.css">
+
+        <div class="html-header-newwrapper">
+            <div class="html-newheader">
+                <div class="html-header-newentry">
+
+                    <div class="main-info">
+                        <div class="logo leftul">
+
+                            <a href="/">
+                                <img  src="resources/images/logo_kids_toys.png" />
+                            </a>
+                    </div>
+                </div>
+            </div>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        </div>
+        </div>
+        </head>

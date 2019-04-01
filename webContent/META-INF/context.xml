@@ -1,0 +1,18 @@
+<!-- Data source and connection pool configuration
+(The default Tomcat's DBCP is used)-->
+
+<Context>
+	<Resource name="jdbc/KIDS_TOYS"
+			  auth="Container"
+			  type="javax.sql.DataSource"
+			  maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+			  username="root" password="root"
+			  driverClassName="com.mysql.jdbc.Driver"
+			  defaultAutoCommit="false"
+			  defaultTransactionIsolation="READ_COMMITTED"
+			  connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC;useSSL=false"
+			  url="jdbc:mysql://localhost:3306/kidstoys"/>
+
+</Context>
+
+
